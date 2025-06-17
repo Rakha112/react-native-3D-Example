@@ -19,29 +19,11 @@ cd react-native-3D-Example
 Install dependencies
 
 ```bash
-npm install
+yarn
 ```
 
-For iOS
+Run the app
 
 ```bash
-npx pod-install
-```
-
-Start the server
-
-```bash
-npm start -- --reset-cache
-```
-
-Run on IOS
-
-```bash
-npx react-native run-ios
-```
-
-Run on ANDROID
-
-```bash
-npx react-native run-android
+yarn expo start -c
 ```
