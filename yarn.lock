@@ -8290,19 +8290,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"r3f-native-orbitcontrols@npm:^1.0.12":
-  version: 1.0.12
-  resolution: "r3f-native-orbitcontrols@npm:1.0.12"
-  peerDependencies:
-    "@react-three/fiber": ">=8.0.11"
-    expo-gl: ">=12.0.0"
-    react: ">=14.0.0"
-    react-native: ">=0.64.0"
-    three: ">=0.139.0"
-  checksum: 10c0/290f5e28c31b6bb37b5bbf64e6f938aba1b08e7ec5f11bb75f462e2c6e782eec5960b540074214b14b11b705aa9177a2df8f8972c0c5a296e3b3ef9a1892247f
-  languageName: node
-  linkType: hard
-
 "range-parser@npm:~1.2.1":
   version: 1.2.1
   resolution: "range-parser@npm:1.2.1"
@@ -8887,7 +8874,6 @@ __metadata:
     expo-symbols: "npm:~0.4.5"
     expo-system-ui: "npm:~5.0.8"
     expo-web-browser: "npm:~14.1.6"
-    r3f-native-orbitcontrols: "npm:^1.0.12"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     react-native: "npm:0.79.3"
