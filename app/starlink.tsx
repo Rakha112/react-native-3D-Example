@@ -1,4 +1,4 @@
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei/native";
 import { Canvas } from "@react-three/fiber/native";
 import { router } from "expo-router";
 import { StatusBar } from "expo-status-bar";

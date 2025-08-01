@@ -1,3 +1,4 @@
+import { OrbitControls } from "@react-three/drei/native";
 import { Canvas } from "@react-three/fiber/native";
 import React, { Suspense, useState } from "react";
 import { StyleSheet, View } from "react-native";
@@ -26,6 +27,7 @@ const Character3DScreen = () => {
             };
           }}
         >
+          <OrbitControls enablePan={false} enableZoom={false} />
           <ambientLight intensity={3} />
           <Suspense fallback={<Trigger setLoading={setLoading} />}>
             <Character />
