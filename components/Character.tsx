@@ -34,7 +34,13 @@ export default function Character(props: JSX.IntrinsicElements["group"]) {
   }, [actions]);
 
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group
+      ref={group}
+      {...props}
+      dispose={null}
+      scale={2.5}
+      position={[0, -1.5, 0]}
+    >
       <group name="Scene">
         <group name="Armature" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <skinnedMesh

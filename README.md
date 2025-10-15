@@ -1,7 +1,3 @@
-## Demo
-
-![Demo](https://github.com/Rakha112/react-native-3D-Example/blob/main/Demo.gif)
-
 ## Run Locally
 
 Clone the project
@@ -22,8 +18,24 @@ Install dependencies
 yarn
 ```
 
+Clean Prebuild
+
+```bash
+yarn expo prebuild --clean
+```
+
 Run the app
 
 ```bash
-yarn expo start -c
+yarn android
 ```
+
+or
+
+```bash
+yarn ios
+```
+
+## Demo
+
+![Demo](https://github.com/Rakha112/react-native-3D-Example/blob/main/Demo.gif)
